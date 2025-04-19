@@ -470,12 +470,13 @@ color: rgb(44, 43, 43);
     border: none;
     outline: none;
     display: none;
-    transform: translateX(16%);
+    transform: translateX(15%);
 }
 
 .Section6 .card1:hover input{
     display: flex;
     cursor: pointer;
+    transform: translateX(15%);
 }
 
 .Section6 .card1:hover{
@@ -717,7 +718,7 @@ color: rgba(255,255,255,0.5);
     }
 
     .Section6 .card{
-        display: block;
+        display: none;
         width: 80%;
         height: 100vh;
         position: relative;
@@ -725,7 +726,7 @@ color: rgba(255,255,255,0.5);
         
     }
     .Section6 .card1 input{
-        transform: translateX(30%);
+        transform: translateX(0%);
     }
 
     .card1{
@@ -831,6 +832,9 @@ color: rgba(255,255,255,0.5);
         transform: translateX(0%);
         width: 220px;
     }
+    .Section5 .imgg div {
+        padding: 40px 20px;
+    }
 
     footer{
         width: 100%;
@@ -885,7 +889,7 @@ color: rgba(255,255,255,0.5);
         left: 140px;
     }
     .Section6 .card1 input { 
-        transform: translateX(7%);
+        transform: translateX(1%);
     }
 }
 
@@ -1129,6 +1133,7 @@ color: rgba(255,255,255,0.5);
     }
     .Section6 .card1{
         height: 620px;
+        width: 76%;
     }
     .footo{
         margin-top: 145px;
