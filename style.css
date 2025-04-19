@@ -1,0 +1,1284 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header Start */
+header{
+    width: 100%;
+    height: 70px;
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin: auto 100px;
+    margin-top: 20px;
+}
+header .nav{
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+header .nav ul{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 11.5px;
+    display:flex ;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+header .nav ul li{
+   margin-right: 30px;
+   text-decoration: none;
+}
+header .nav ul li a{
+text-decoration: none;
+color: rgb(31, 30, 30);
+
+}
+header .nav ul li a:hover{
+    color: #7f97ff ;
+    transition: all ease 0.4s;
+}
+
+.checkbtn{
+    display:none ;
+    color: rgba(0,0,0,0.9);
+    line-height: 108px;
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+#check{
+    display:none ;
+}
+
+/* Header End */
+
+/*Section 1 Start*/
+
+.Section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.text, .img{
+    width: 50%;
+}
+.text{
+    
+    margin-left:117px ;
+    margin-bottom: 100px;
+}
+.img{
+    padding-right: 70px;
+}
+.img img{
+   max-width: 100%;
+   height: auto;
+}
+.text h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(51, 51, 51);
+}
+.text h1{
+    text-transform: uppercase;
+    font-size: 55px;
+    color: rgb(32, 32, 32);
+}
+.text p{
+    color: rgb(133, 130, 130);
+    font-size: 16px;
+    
+}
+.text input{
+    padding: 13px 24px;
+    background:-webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    outline: none;
+    border: 1px solid white;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+.text input:hover{
+    box-shadow: 5px 18px 30px rgba( 130, 147, 255,0.5);
+    transition: all ease-in 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+/*Section 1 End*/
+
+/*Section 2 Start*/
+
+.Section2{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 620PX;
+}
+.aboutimg, .abouttext{
+    width: 40%;
+    margin: 0 auto;
+}
+.aboutimg img{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 45px;
+}
+.abouttext{
+    margin-bottom: 30px;
+    padding-left: 150px;
+}
+.abouttext h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(51, 51, 51);
+}
+.abouttext  h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(32, 32, 32);
+}
+.abouttext p{
+    color: rgb(133, 130, 130);
+    font-size: 15px;
+    width: 85%;
+    line-height: 25px;
+}
+
+.abouttext input{
+    padding:10px 25px ;
+    background:-webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.abouttext input:hover{
+    box-shadow: 5px 18px 30px  rgba( 130, 147, 255,0.5);
+    transition: all ease-in 0.5s;
+    outline: none;
+}
+
+/*Section 2 End*/
+
+ /*Section 3 Start*/
+
+.Section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.fasttext h1{
+    color: rgb(29, 28, 28);
+    font-size: 35px;
+    line-height: 0px;
+}
+.fasttext p{
+width: 650px;
+margin: 0 auto;
+color: rgb(145, 143, 143);
+font-size: 15px;
+}
+
+.service{
+    width: 80%;
+    margin: 0 auto;
+}
+.fastline{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.fastline div,.lastline div{
+width: 32%;
+float: left;
+padding: 5px;
+margin: 0 auto;
+}
+
+.fastline i{
+    font-size: 35px;
+}
+
+.fastline h1 a{
+text-decoration: none;
+color: rgb(43, 42, 42);
+font-weight: bold;
+font-size: 18px;
+}
+
+.fastline p{
+    font-size: 17px;
+    color: rgb(156, 155, 155);
+    width: 300px;
+    line-height: 25px;
+    font-family: Poppins;
+}
+
+.lastline i{
+    font-size: 35px;
+
+}
+
+.lastline h1 a{
+    text-decoration: none;
+color: rgb(43, 42, 42);
+font-weight: bold;
+font-size: 18px;
+}
+.lastline{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.lastline p{
+    font-size: 17px;
+    color: rgb(156, 155, 155);
+    width: 300px;
+    line-height: 25px;
+    font-family: Poppins; 
+}
+
+.fastline div:hover{
+background-color: #7f97ff;
+color: white;
+transition: all ease-in 0.5s;
+border-radius: 5px;
+}
+
+.fastline div:hover p{
+    color: white;
+}
+
+.fastline div:hover h1 a{
+    color: white;
+}
+
+.lastline div:hover{
+    background-color: #7f97ff;
+color: white;
+transition: all ease-in 0.5s;
+border-radius: 5px;
+}
+
+.lastline div:hover p{
+    color: white;
+}
+
+.lastline div:hover h1 a{
+    color: white;
+}
+
+ /*Section 3 End*/
+
+/*Section 4 Start*/
+
+.Section4{
+    width: 100%;
+    height: 300px;
+    background-color: #7f97ff;
+}
+
+.Section4 div{
+    width: 20%;
+    float: left;
+    position: relative;
+    left: 220px;
+    top:100px;
+    text-align: center;
+}
+
+.Section4 h1{
+    color: white;
+    font-size: 40px;
+    line-height: 0;
+}
+
+.Section4 p{
+    color: white;
+}
+
+ /*Section 4 End*/
+
+ /*Protfolio Part Start*/
+
+.Section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.text1{
+text-align: center;
+padding-top: 100px;
+}
+
+.text1 h1{
+    font-size: 37px;
+    color: rgb(34, 34, 34);
+    line-height: 0;
+}
+
+.text1 p{
+    color: rgb(126, 125, 125);
+    font-size: 15px;
+}
+
+.Section5 .imgg{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.Section5 .imgg div{
+    width: 340px;
+    height:339px ;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.Section5 .imgg h1{
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+    line-height: 10px;
+}
+
+.Section5 .imgg p{
+    color: rgb(141, 140, 140);
+    font-size: 15px;
+}
+
+.Section5 figure{
+    background: linear-gradient(40deg,#8490ff 40%,#62bdfc 100%);
+    padding: 0;
+    margin: 0;
+    width: 340px;
+    height: 339px;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.Section5 figure:hover img{
+    opacity: 0.3;
+    transition: all ease-in 0.3s;
+}
+
+ /*Protfolio Part End*/
+
+/* Section 6 Start*/
+
+.Section6{
+    width: 100%;
+    height: 700PX;
+  
+}
+
+.Section6 .text2{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80PX;
+    padding-bottom: 60px;
+}
+
+.Section6 .text2 h1{
+    font-size:35px ;
+    color: rgb(36, 35, 35);
+    line-height: 0;
+}
+
+.Section6 .text2 p{
+    color: rgb(160, 158, 158);
+    font-size: 15px;
+}
+
+.Section6 .card{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: relative;
+    bottom: 30px;
+    background-color: #f9f9ff;
+    text-align: center;  
+}
+
+.Section6 .card1{
+width:350px ;
+height: 490px;
+border: 1px solid rgba(0, 0,0, 0.1);
+color: rgb(44, 43, 43);
+}
+
+.Section6 .card1 h1{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.Section6 .card1 h3{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.Section6 .card1 h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Section6 .card1 p{
+    color: rgb(124, 124, 123);
+    font-size: 15px;
+}
+
+.Section6 .card1 input{
+    width: 220px;
+    height: 35px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    outline: none;
+    display: none;
+    transform: translateX(16%);
+}
+
+.Section6 .card1:hover input{
+    display: flex;
+    cursor: pointer;
+}
+
+.Section6 .card1:hover{
+    background: linear-gradient(90deg,#8490ff 40%,#62bdfc 100%);
+    transition: all ease-in 0.25s;
+    transform: scale(1.05);
+    color: white;
+}
+
+.card1:hover p{
+    color: white;
+    transition: all ease-in 0.25s;
+    transform: scale(1.05);
+}
+
+/* Section 6 End*/
+
+/* Footer Start */
+
+footer{
+    background-color: rgb(4,9,30);
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+}
+
+.footo{
+    width: 85%;
+    height: auto;
+    justify-content: space-around;
+    
+    display: flex;
+    margin: 0 auto;
+   margin-top: 120px;
+}
+
+.footo p{
+color: rgba(255,255,255,0.5);
+}
+
+.footo input{
+  outline: none;
+  border: none;
+  font-size: 15px;
+  padding: 10px 150px 10px 10px ;
+}
+
+.footo button{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px 15px ;
+    color: white;
+    background-color: #8490ff;
+    cursor: pointer;
+}
+
+.footo i{
+    cursor: pointer;
+    padding: 0px 5px;
+    font-size: 13px;
+}
+
+.footo i:hover{
+    color: #8490ff;
+}
+
+/* Footer End */
+
+
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+        position: fixed;
+    }
+
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+
+    header .nav ul{
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background: #f9f9ff;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+        
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+    header .nav ul li a{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .Section1{
+        display:flow-root ;
+    }
+
+    .text{
+        margin-top: 100px;
+
+    }
+    .text h3{
+        font-size: 13px;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .img img{
+        margin-left: 90px;
+        margin-bottom: 0px;
+        max-width: 100%;
+        height: 300px;
+    }
+
+    .Section2{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 150px;
+    }
+
+
+    .Section2 .aboutimg img{
+        position: relative;
+        bottom: 30px;
+        height: auto;
+        max-width: 80%;
+       
+    }
+
+    .Section2 div{
+        width: 100%;
+    }
+
+    .Section2 .abouttext{
+        position: relative;
+        right: 140px;
+        text-align: center;
+    }
+
+    .abouttext h3{
+        font-size: 12px;
+
+    }
+
+    .abouttext h2{
+        font-size: 30px;
+    }
+
+    .abouttext p{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    .Section3{
+       position: relative;
+       width: 100%;
+       height: auto;
+       
+      
+    }
+    
+    .fasttext h1{
+        font-size: 30px;
+    }
+ 
+    .fasttext p{
+        width: 80%;
+    }
+
+    .fastline div, .lastline div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .fastline div p, .lastline div p{
+        margin: 0 auto;
+    }
+
+    .Section4{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 300px;
+    }
+    
+    .Section4 div{
+        clear: left;
+    }
+
+    .Section5{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 350px;
+    }
+
+    .text1 h1{
+        font-size: 30px;
+    }
+
+    .Section6{
+        width: 100%;
+        height: 100vh;
+        position:relative;
+        top:350px ;
+    }
+
+    .Section6 .text2 h1{
+        font-size: 30px;
+    }
+
+    .Section6 .text2 p{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .Section6 .card{
+        display: block;
+        width: 80%;
+        height: 100vh;
+        position: relative;
+        left: 50px;
+        
+    }
+    .Section6 .card1 input{
+        transform: translateX(30%);
+    }
+
+    .card1{
+        margin-top: 50px;
+    }
+
+    footer{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 130em;
+    }
+    footer .footo{
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+    .footo .app{
+        width: 80%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    header .logo{
+        margin: auto 50px;
+        margin-top: 20px;
+    } 
+    header .nav ul {
+        font-size: 11px;
+        padding-right: 0px;
+    }
+    header .nav ul li{
+        margin-right:  20px;
+    }
+    .text{
+        margin-bottom: 0;
+    }
+    .text h1{
+        font-size: 46px;
+    }
+    .img{
+        width: 35%;
+    }
+    .abouttext{
+        margin-bottom: 0;
+    }
+    .abouttext h2{
+        font-size: 25px;
+    }
+    .aboutimg img{
+        padding-left: 80px;
+    }
+    
+    .Section3{
+        width: 100%;
+        position: relative;
+
+    }
+    .fastline div, .lastline div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .fastline div p, .lastline div p{
+        margin: 0 auto;
+    }
+
+    .Section4{
+        position: relative;
+        top: 700px;
+    }
+    .Section4 div {
+        width: 20%;
+        left: 80px;
+    }
+
+    .Section5{
+        position: relative;
+        top: 700px;
+    }
+
+    .Section6{
+        position: relative;
+        top: 800px;
+    }
+    .Section6 .card1 {
+        height: 420px;
+    }
+    .Section6 .card1 h1 {
+        font-size: 25px;
+    }
+    .Section6 .card1 h3{
+        font-size: 14px;
+    }
+    .Section6 .card1 p{
+        font-size: 11px;
+    }
+    .Section6 .card1 h2 {
+        font-size: 28px;
+    }
+    .Section6 .card1 input {
+        transform: translateX(0%);
+        width: 220px;
+    }
+
+    footer{
+        width: 100%;
+        height: 90vh;
+        position: relative;
+        top: 50em;
+    }
+    footer .footo{
+        position: relative;
+        display: block;
+        top: 140px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1170px){
+    .fastline{
+        width: 103%;
+    }
+    .fastline p{
+        font-size: 14px;
+        width: 280px;
+    }
+    .service{
+        width: 82%;
+    }
+    .lastline{
+        width: 103%;
+    }
+    .lastline p{
+        font-size: 14px;
+        width: 280px;
+    }
+    .Section4 div {
+        left: 115px;
+    }
+    .Section6 .card1 input {
+        width: 172px;
+    }
+    .footo{
+        width: 90%;
+    }
+}
+
+@media (min-width:1171px) and (max-width:1270px){
+    header .nav ul {
+        font-size: 12.5px;
+    }
+    .text, .img {
+        width: 42%;
+    }
+    .Section4 div {
+        left: 140px;
+    }
+    .Section6 .card1 input { 
+        transform: translateX(7%);
+    }
+}
+
+@media (min-width:1271px) and (max-width:1440px){
+    header .nav ul {
+        font-size: 12.5px;
+    }
+    .text, .img {
+        width: 42%;
+    }
+    .fastline p {
+        width: 330px;
+    }
+    .lastline p{
+        width: 330px;
+    }
+    .Section4 div {
+        left: 150px;
+    }
+    .Section5 .imgg div{
+        padding: 50px 10px;
+    }
+    .Section6 .card1 input {
+        transform: translateX(0%);
+    }
+    
+}
+
+@media (min-width:1441px) and (max-width:1744px){
+    header{
+        height: 130px;
+    }
+    header .logo{
+        margin-top: 45px;
+    }
+    .logo a img{
+        width: 160%;
+        height: auto;
+    }
+    header .nav {
+        top: 35px;
+    }
+    header .nav ul{
+        font-size: 20px;
+        padding-right: 140px;
+    }
+    header .nav ul li{
+       margin-right: 35px;
+    }
+    .text, .img{
+        width: 40%;
+    }
+    .text h3 {
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .text p{
+        font-size: 20px;
+        letter-spacing: 2px
+    }
+    .text {
+        margin-left: 190px;
+    }
+    .img {
+        margin-right: 50px;
+    }
+    .aboutimg img{
+        padding-left: 80px;
+    }
+    .abouttext h3{
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .abouttext p{
+        font-size: 20px;
+        letter-spacing: 1px
+    }
+    .text input {
+        padding: 20px 30px;
+        font-size: 17px;
+    }
+    .abouttext input {
+        padding: 20px 30px;
+        font-size: 17px;
+    }
+    .fastline div, .lastline div{
+        width: 23%;
+        padding: 15px 60px;
+    }
+    .Section2{
+        height: 750px;
+    }
+    .Section3{
+        height: 700px;
+    }
+    .Section5 .imgg div {
+        padding: 50px 50px;
+    }
+    .Section4 div{
+        left: 160px;
+    }
+    .Section6 .card1 input {
+        transform: translateX(0%);
+    }
+    footer {
+        font-size: 25px;
+        height: 470px;
+    }
+    .footo {
+        margin-top: 85px;
+    }
+
+}
+
+
+@media (min-width:1745px) and (max-width:2060px){
+    header{
+        height: 130px;
+    }
+    header .logo{
+        margin-top: 45px;
+    }
+    .logo a img{
+        width: 160%;
+        height: auto;
+    }
+    header .nav {
+        top: 35px;
+    }
+    header .nav ul{
+        font-size: 20px;
+        padding-right: 140px;
+    }
+    header .nav ul li{
+       margin-right: 35px;
+    }
+    .text, .img{
+        width: 40%;
+    }
+    .text h3 {
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .text p{
+        font-size: 20px;
+        letter-spacing: 2px
+    }
+    .text {
+        margin-left: 190px;
+    }
+    .img {
+        margin-right: 50px;
+    }
+    .aboutimg img{
+        padding-left: 80px;
+    }
+    .abouttext h3{
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .abouttext p{
+        font-size: 20px;
+        letter-spacing: 1px
+    }
+    .text input {
+        padding: 20px 30px;
+        font-size: 17px;
+    }
+    .abouttext input {
+        padding: 20px 30px;
+        font-size: 17px;
+    }
+    .fastline div, .lastline div{
+        width: 24%;
+        padding: 30px 50px;
+    }
+    .Section2{
+        height: 750px;
+    }
+    .Section3{
+        height: 700px;
+    }
+    .fastline i {
+        font-size: 42px;
+    }
+    .fastline h1 a{
+        font-size: 25px;
+    }
+    .fastline p{
+        font-size: 21px;
+        width: 360px;
+    }
+    .lastline i {
+        font-size: 42px;
+    }
+    .lastline h1 a{
+        font-size: 25px;
+    }
+    .lastline p{
+        font-size: 21px;
+        width: 360px;
+    }
+    .Section3{
+        height: 730px;
+    }
+    .Section4 div {
+        left: 180px;
+    }
+    .Section5 .imgg div{
+        padding: 50px 50px;
+    }
+    .Section5 .imgg h1{
+        font-size: 25px;
+    }
+    .Section5 .imgg p{
+        font-size: 20px;
+    }
+    .Section6 .card{
+        width: 76%;
+        height: 620px;
+    }
+    .Section6 .card1 input{
+        transform: translateX(0%);
+    }
+    .Section6 .card1 h1 {
+        font-size: 45px;
+    }
+    .Section6 .card1 h3{
+        font-size: 25px;
+    }
+    .Section6 .card1 p{
+        font-size: 20px;
+    }
+    .Section6 .card1 h2{
+        font-size: 40px;
+    }
+    footer{
+        height: 600px;
+        margin-top: 200px;
+        font-size: 25px;
+    }
+    .Section6 .card1{
+        height: 620px;
+    }
+    .footo{
+        margin-top: 145px;
+    }
+
+}
+
+
+@media (min-width:2061px) and (max-width:2560px){
+    header{
+        height: 130px;
+    }
+    header .logo{
+        margin-top: 45px;
+    }
+    .logo a img{
+        width: 160%;
+        height: auto;
+    }
+    header .nav {
+        top: 35px;
+    }
+    header .nav ul{
+        font-size: 20px;
+        padding-right: 140px;
+    }
+    header .nav ul li{
+       margin-right: 35px;
+    }
+    .text, .img{
+        width: 40%;
+    }
+    .text h3 {
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .text p{
+        font-size: 20px;
+        letter-spacing: 2px
+    }
+    .text {
+        margin-left: 190px;
+    }
+    .img {
+        margin-right: 50px;
+    }
+    .aboutimg img{
+        padding-left: 80px;
+    }
+    .abouttext h3{
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .abouttext p{
+        font-size: 20px;
+        letter-spacing: 1px
+    }
+    .text input {
+        padding: 20px 30px;
+        font-size: 17px;
+    }
+    .abouttext input {
+        padding: 20px 30px;
+        font-size: 17px;
+    }
+    .fastline div, .lastline div{
+        width: 24%;
+        padding: 30px 50px;
+    }
+    .Section2{
+        height: 750px;
+    }
+    .Section3{
+        height: 700px;
+    }
+    .fastline{
+        padding-left: 100px;
+    }
+    .lastline{
+        padding-left: 100px;
+    }
+    .fastline i {
+        font-size: 42px;
+    }
+    .fastline h1 a{
+        font-size: 25px;
+    }
+    .fastline p{
+        font-size: 21px;
+        width: 435px;
+    }
+    .lastline i {
+        font-size: 42px;
+    }
+    .lastline h1 a{
+        font-size: 25px;
+    }
+    .lastline p{
+        font-size: 21px;
+        width: 435px;
+    }
+    .Section3{
+        height: 730px;
+    }
+    .Section4 div {
+        left: 210px;
+    }
+    .Section5 .imgg div{
+        padding: 50px 90px;
+    }
+    .Section5 .imgg h1{
+        font-size: 25px;
+    }
+    .Section5 .imgg p{
+        font-size: 20px;
+    }
+    .Section6 .card{
+        width: 66%;
+        height: 750px;
+    }
+    .Section6 .card1 input{
+        transform: translateX(0%);
+        width: 230px;
+        height: 45px;
+    }
+    .Section6 .card1 h1 {
+        font-size: 55px;
+    }
+    .Section6 .card1 h3{
+        font-size: 25px;
+    }
+    .Section6 .card1 p{
+        font-size: 25px;
+    }
+    .Section6 .card1 h2{
+        font-size: 50px;
+    }
+    footer{
+        height: 700px;
+        margin-top: 370px;
+        font-size: 30px;
+    }
+    .Section6 .card1{
+        height: 750px;
+        width: 66%;
+    }
+    .footo{
+        margin-top: 160px;
+    }
+
+}
+
+
