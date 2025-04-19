@@ -470,13 +470,13 @@ color: rgb(44, 43, 43);
     border: none;
     outline: none;
     display: none;
-    transform: translateX(15%);
+    transform: translateX(0%);
 }
 
 .Section6 .card1:hover input{
     display: flex;
     cursor: pointer;
-    transform: translateX(15%);
+    transform: translateX(0%);
 }
 
 .Section6 .card1:hover{
